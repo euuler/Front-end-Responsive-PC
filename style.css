@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Oswald&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: transparent;
+}
+
+.nav-bar nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px 0 20px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+a {
+  display: block;
+  padding: 8px;
+  color: #000;
+  text-decoration: none;
+}
+
+/* TOU AQUI MERMAO */
+
+.row{
+  text-align: center;
+  margin-top: 20%;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.row button{
+  font-size: 20px;
+  margin-top: 30px;
+  margin-right: 8px;
+  cursor: pointer;
+  width: 320px;
+  padding: 10px;
+  background: #64A923;
+  color: #fff;
+  font-family: monospace;
+  transition: background 0.3s;
+  border: none;
+}
+
+.row button:hover{
+  background: #4A7A1D;
+}
+
+.rights{
+  text-align: center;
+  margin-top: 220px;
+}
+
